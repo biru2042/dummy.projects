@@ -1,0 +1,52 @@
+body{
+	margin: 0px;
+	background-color: gray;
+	background-repeat: repeat;
+}
+.Holder{
+	width: 800px;
+	height: auto;
+	margin: 11px auto;
+	background-color: #FFF;
+	border: 0px solid #1E1A1A;
+}
+.Header{
+	height: 100px;
+}
+.Logo{
+	width: 200px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100px;
+}
+.Menu{
+	height: 50px;
+}
+.Content{
+	height: 600px;
+}
+
+ul {
+    padding: 0;
+	line-height: 36px;
+	margin-top: 5px;
+	float: left;
+}
+ul li{
+	list-style: none;
+	display: inline;
+}
+ul li a{
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 5px;
+	padding: 10px;
+
+}
+ul li a:hover{
+	text-decoration: underline;
+	color: #333;
+	font-weight: bolder;
+}
